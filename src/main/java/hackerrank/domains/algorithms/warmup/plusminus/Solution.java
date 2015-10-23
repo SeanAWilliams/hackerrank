@@ -3,11 +3,8 @@ package hackerrank.domains.algorithms.warmup.plusminus;
 /**
  * Created by william on 10/23/2015.
  */
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+
+import java.util.Scanner;
 
 public class Solution {
 
@@ -15,21 +12,19 @@ public class Solution {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         Scanner sc = new Scanner(System.in);
         int count = sc.nextInt();
-        double pos=0,neg = 0,zero = 0;
+        double pos = 0, neg = 0, zero = 0;
         for (int i = 0; i < count; i++) {
             int temp = sc.nextInt();
-            if( temp >0){
+            if (temp > 0) {
                 pos++;
-            }
-            else if( temp <0){
+            } else if (temp < 0) {
                 neg++;
-            }
-            else
+            } else
                 zero++;
         }
 
-        System.out.println(pos/count);
-        System.out.println(neg/count);
-        System.out.println(zero/count);
+        System.out.println(pos / count);
+        System.out.println(neg / count);
+        System.out.println(zero / count);
     }
 }

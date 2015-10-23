@@ -3,11 +3,8 @@ package hackerrank.domains.algorithms.implementation.angryprofessor;
 /**
  * Created by william on 10/23/2015.
  */
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+
+import java.util.Scanner;
 
 public class Solution {
 
@@ -23,7 +20,7 @@ public class Solution {
                 if (temp <= 0)
                     early++;
             }
-            if(early >= lateCount)
+            if (early >= lateCount)
                 System.out.println("NO");
             else
                 System.out.println("YES");
