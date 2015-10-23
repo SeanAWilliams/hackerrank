@@ -3,17 +3,14 @@ package hackerrank.domains.algorithms.warmup.solvemefirst;
 /**
  * Created by william on 10/23/2015.
  */
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+
+import java.util.Scanner;
 
 public class Solution {
 
 
     static int solveMeFirst(int a, int b) {
-        return a+b;
+        return a + b;
     }
 
 

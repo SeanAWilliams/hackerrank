@@ -3,11 +3,8 @@ package hackerrank.domains.algorithms.implementation.sherlockandthebeast;
 /**
  * Created by william on 10/23/2015.
  */
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+
+import java.util.Scanner;
 
 public class Solution {
 
@@ -33,9 +30,9 @@ public class Solution {
 
     static String buildString(int five, int three) {
         StringBuilder sb = new StringBuilder();
-        for (int i =0; i<five; i++)
+        for (int i = 0; i < five; i++)
             sb.append("5");
-        for (int i = 0; i<three; i++)
+        for (int i = 0; i < three; i++)
             sb.append("3");
         return sb.toString();
     }
