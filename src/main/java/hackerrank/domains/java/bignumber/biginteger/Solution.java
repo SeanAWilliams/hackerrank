@@ -4,11 +4,8 @@ package hackerrank.domains.java.bignumber.biginteger;
  * Created by william on 10/24/2015.
  */
 
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+import java.math.BigInteger;
+import java.util.Scanner;
 
 public class Solution {
 
